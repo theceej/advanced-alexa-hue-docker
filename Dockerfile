@@ -1,5 +1,5 @@
-FROM jpeffer/docker-rvm:latest
-MAINTAINER Jonathan Peffer <jpeffer.developer@gmail.com>
+FROM eschizoid/docker-rvm:armfh
+MAINTAINER Mariano Gonzalez <mariano.gonzalez.mx@gmail.com>
 
 WORKDIR /code
 
