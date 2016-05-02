@@ -1,4 +1,4 @@
-FROM eschizoid/docker-rvm:armfh
+FROM eschizoid/docker-rvm:armhf
 MAINTAINER Mariano Gonzalez <mariano.gonzalez.mx@gmail.com>
 
 WORKDIR /code
