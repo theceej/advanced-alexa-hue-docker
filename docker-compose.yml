@@ -1,0 +1,9 @@
+version: '2'
+services:
+  alexa-hue:
+    image: advanced-alexa-hue-docker:latest
+    container_name: alexa-hue
+    network_mode: host
+    build: .
+    env_file:
+      - app_id.env

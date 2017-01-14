@@ -15,5 +15,4 @@ ENV RACK_ENV production
 EXPOSE 4567/tcp
 
 WORKDIR /usr/local/www/server
-#ENTRYPOINT /bin/bash -l -c "ruby app.rb"
-ENTRYPOINT /bin/bash -l -c "echo $ALEXA_APP_ID"
+ENTRYPOINT /bin/bash -l -c "ruby app.rb"
